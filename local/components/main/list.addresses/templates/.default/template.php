@@ -1,7 +1,7 @@
 <?php
 if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 
-//echo '<pre>'; print_r($arResult); echo '</pre>';
+
 if (!empty($arResult['ITEMS'])){
     $APPLICATION->IncludeComponent('bitrix:main.ui.grid', '', [
         'GRID_ID' => $arResult['GRID_ID'],
